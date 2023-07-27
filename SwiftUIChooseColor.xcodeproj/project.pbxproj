@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D69B95532A726D510016B541 /* SwiftUIChooseColorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69B95522A726D510016B541 /* SwiftUIChooseColorApp.swift */; };
+		D69B95552A726D510016B541 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69B95542A726D510016B541 /* ContentView.swift */; };
+		D69B95572A726D530016B541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69B95562A726D530016B541 /* Assets.xcassets */; };
+		D69B955A2A726D530016B541 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69B95592A726D530016B541 /* Preview Assets.xcassets */; };
+		D69B95642A726D530016B541 /* SwiftUIChooseColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69B95632A726D530016B541 /* SwiftUIChooseColorTests.swift */; };
+		D69B956E2A726D530016B541 /* SwiftUIChooseColorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69B956D2A726D530016B541 /* SwiftUIChooseColorUITests.swift */; };
+		D69B95702A726D530016B541 /* SwiftUIChooseColorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69B956F2A726D530016B541 /* SwiftUIChooseColorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D69B95602A726D530016B541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69B95472A726D510016B541 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D69B954E2A726D510016B541;
+			remoteInfo = SwiftUIChooseColor;
+		};
+		D69B956A2A726D530016B541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69B95472A726D510016B541 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D69B954E2A726D510016B541;
+			remoteInfo = SwiftUIChooseColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D69B954F2A726D510016B541 /* SwiftUIChooseColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIChooseColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69B95522A726D510016B541 /* SwiftUIChooseColorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIChooseColorApp.swift; sourceTree = "<group>"; };
+		D69B95542A726D510016B541 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D69B95562A726D530016B541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D69B95592A726D530016B541 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D69B955F2A726D530016B541 /* SwiftUIChooseColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIChooseColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69B95632A726D530016B541 /* SwiftUIChooseColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIChooseColorTests.swift; sourceTree = "<group>"; };
+		D69B95692A726D530016B541 /* SwiftUIChooseColorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIChooseColorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69B956D2A726D530016B541 /* SwiftUIChooseColorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIChooseColorUITests.swift; sourceTree = "<group>"; };
+		D69B956F2A726D530016B541 /* SwiftUIChooseColorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIChooseColorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D69B954C2A726D510016B541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69B955C2A726D530016B541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69B95662A726D530016B541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D69B95462A726D510016B541 = {
+			isa = PBXGroup;
+			children = (
+				D69B95512A726D510016B541 /* SwiftUIChooseColor */,
+				D69B95622A726D530016B541 /* SwiftUIChooseColorTests */,
+				D69B956C2A726D530016B541 /* SwiftUIChooseColorUITests */,
+				D69B95502A726D510016B541 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D69B95502A726D510016B541 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D69B954F2A726D510016B541 /* SwiftUIChooseColor.app */,
+				D69B955F2A726D530016B541 /* SwiftUIChooseColorTests.xctest */,
+				D69B95692A726D530016B541 /* SwiftUIChooseColorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D69B95512A726D510016B541 /* SwiftUIChooseColor */ = {
+			isa = PBXGroup;
+			children = (
+				D69B95522A726D510016B541 /* SwiftUIChooseColorApp.swift */,
+				D69B95542A726D510016B541 /* ContentView.swift */,
+				D69B95562A726D530016B541 /* Assets.xcassets */,
+				D69B95582A726D530016B541 /* Preview Content */,
+			);
+			path = SwiftUIChooseColor;
+			sourceTree = "<group>";
+		};
+		D69B95582A726D530016B541 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D69B95592A726D530016B541 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D69B95622A726D530016B541 /* SwiftUIChooseColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D69B95632A726D530016B541 /* SwiftUIChooseColorTests.swift */,
+			);
+			path = SwiftUIChooseColorTests;
+			sourceTree = "<group>";
+		};
+		D69B956C2A726D530016B541 /* SwiftUIChooseColorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D69B956D2A726D530016B541 /* SwiftUIChooseColorUITests.swift */,
+				D69B956F2A726D530016B541 /* SwiftUIChooseColorUITestsLaunchTests.swift */,
+			);
+			path = SwiftUIChooseColorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D69B954E2A726D510016B541 /* SwiftUIChooseColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69B95732A726D530016B541 /* Build configuration list for PBXNativeTarget "SwiftUIChooseColor" */;
+			buildPhases = (
+				D69B954B2A726D510016B541 /* Sources */,
+				D69B954C2A726D510016B541 /* Frameworks */,
+				D69B954D2A726D510016B541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIChooseColor;
+			productName = SwiftUIChooseColor;
+			productReference = D69B954F2A726D510016B541 /* SwiftUIChooseColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D69B955E2A726D530016B541 /* SwiftUIChooseColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69B95762A726D530016B541 /* Build configuration list for PBXNativeTarget "SwiftUIChooseColorTests" */;
+			buildPhases = (
+				D69B955B2A726D530016B541 /* Sources */,
+				D69B955C2A726D530016B541 /* Frameworks */,
+				D69B955D2A726D530016B541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D69B95612A726D530016B541 /* PBXTargetDependency */,
+			);
+			name = SwiftUIChooseColorTests;
+			productName = SwiftUIChooseColorTests;
+			productReference = D69B955F2A726D530016B541 /* SwiftUIChooseColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D69B95682A726D530016B541 /* SwiftUIChooseColorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69B95792A726D530016B541 /* Build configuration list for PBXNativeTarget "SwiftUIChooseColorUITests" */;
+			buildPhases = (
+				D69B95652A726D530016B541 /* Sources */,
+				D69B95662A726D530016B541 /* Frameworks */,
+				D69B95672A726D530016B541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D69B956B2A726D530016B541 /* PBXTargetDependency */,
+			);
+			name = SwiftUIChooseColorUITests;
+			productName = SwiftUIChooseColorUITests;
+			productReference = D69B95692A726D530016B541 /* SwiftUIChooseColorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D69B95472A726D510016B541 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D69B954E2A726D510016B541 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D69B955E2A726D530016B541 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D69B954E2A726D510016B541;
+					};
+					D69B95682A726D530016B541 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D69B954E2A726D510016B541;
+					};
+				};
+			};
+			buildConfigurationList = D69B954A2A726D510016B541 /* Build configuration list for PBXProject "SwiftUIChooseColor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D69B95462A726D510016B541;
+			productRefGroup = D69B95502A726D510016B541 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D69B954E2A726D510016B541 /* SwiftUIChooseColor */,
+				D69B955E2A726D530016B541 /* SwiftUIChooseColorTests */,
+				D69B95682A726D530016B541 /* SwiftUIChooseColorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D69B954D2A726D510016B541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69B955A2A726D530016B541 /* Preview Assets.xcassets in Resources */,
+				D69B95572A726D530016B541 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69B955D2A726D530016B541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69B95672A726D530016B541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D69B954B2A726D510016B541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69B95552A726D510016B541 /* ContentView.swift in Sources */,
+				D69B95532A726D510016B541 /* SwiftUIChooseColorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69B955B2A726D530016B541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69B95642A726D530016B541 /* SwiftUIChooseColorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69B95652A726D530016B541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69B956E2A726D530016B541 /* SwiftUIChooseColorUITests.swift in Sources */,
+				D69B95702A726D530016B541 /* SwiftUIChooseColorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D69B95612A726D530016B541 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D69B954E2A726D510016B541 /* SwiftUIChooseColor */;
+			targetProxy = D69B95602A726D530016B541 /* PBXContainerItemProxy */;
+		};
+		D69B956B2A726D530016B541 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D69B954E2A726D510016B541 /* SwiftUIChooseColor */;
+			targetProxy = D69B956A2A726D530016B541 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D69B95712A726D530016B541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D69B95722A726D530016B541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D69B95742A726D530016B541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIChooseColor/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.SwiftUIChooseColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D69B95752A726D530016B541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIChooseColor/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.SwiftUIChooseColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D69B95772A726D530016B541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.SwiftUIChooseColorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIChooseColor.app/SwiftUIChooseColor";
+			};
+			name = Debug;
+		};
+		D69B95782A726D530016B541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.SwiftUIChooseColorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIChooseColor.app/SwiftUIChooseColor";
+			};
+			name = Release;
+		};
+		D69B957A2A726D530016B541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.SwiftUIChooseColorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftUIChooseColor;
+			};
+			name = Debug;
+		};
+		D69B957B2A726D530016B541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.SwiftUIChooseColorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftUIChooseColor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D69B954A2A726D510016B541 /* Build configuration list for PBXProject "SwiftUIChooseColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69B95712A726D530016B541 /* Debug */,
+				D69B95722A726D530016B541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69B95732A726D530016B541 /* Build configuration list for PBXNativeTarget "SwiftUIChooseColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69B95742A726D530016B541 /* Debug */,
+				D69B95752A726D530016B541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69B95762A726D530016B541 /* Build configuration list for PBXNativeTarget "SwiftUIChooseColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69B95772A726D530016B541 /* Debug */,
+				D69B95782A726D530016B541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69B95792A726D530016B541 /* Build configuration list for PBXNativeTarget "SwiftUIChooseColorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69B957A2A726D530016B541 /* Debug */,
+				D69B957B2A726D530016B541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D69B95472A726D510016B541 /* Project object */;
+}
